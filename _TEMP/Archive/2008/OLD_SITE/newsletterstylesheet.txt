@@ -1,0 +1,156 @@
+﻿.BODY{
+	background-image:url(http://providencerollerderby.com/newsletter002.jpg);
+	margin:0px 0px 0px 0px;}
+
+.MAINTABLEBORDER{
+	background-image:url(http://providencerollerderby.com/newsletter002.jpg);
+	background-color:#006699;
+	}
+
+.MAINTABLEBORDERDASH{
+	border:0px;
+	border-color:#00CCFF;
+	border-style:dashed;
+	}
+
+.BLOCKBORDER{
+	padding-top:6px;
+	border-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	}
+
+.MAINTABLEBG{
+	background-color:#FFFFFF;
+	}
+
+.LEFTCOLUMNBG{
+	background-image:url(http://providencerollerderby.com/newsletter003.jpg);
+	background-color:#00CCFF;
+	}
+
+.LEFTCOLUMNTITLEBG{
+	background-color:#006699;
+	}
+
+.MAINTEXT{
+	color:#000000;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.ARTICLEHEADLINE{
+	color:#0099CC;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:10pt;
+	}
+
+.QUICKLINKS{
+	color:#000000;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.TOCTITLE{
+	color:#FFFFFF;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.TOCLINKS{
+	color:#003366;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.COUPONTITLE{
+	color:#0099CC;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:18pt;
+	}
+
+.COUPONTEXT{
+	color:#000000;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.COUPONBG{
+	background-color:#FFFFFF;
+	}
+
+.COUPONBORDER{
+	border-color:#00CCFF;
+	border-style:dashed;
+	border-width:3px;
+	}
+
+.COUPONEXPIRATION{
+	color:#000000;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.PROMOTIONLINK{
+	color:#0099CC;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.TITLETEXT{
+	color:#003366;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:10pt;
+	}
+
+.DATETEXT{
+	color:#000000;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	white-space:nowrap;
+	}
+
+.COLUMNHEADINGS{
+	color:#FFFFFF;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:8pt;
+	}
+
+.CLOSINGHEADLINE{
+	color:#003366;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:10pt;
+	}
+
+.LINKSPAD{
+	margin-bottom:6px;
+	}
+
+.BLOCKMARGIN{
+	margin-bottom:6px;
+	}
+
+.TEMPLATEWIDTH{
+	width:600px;
+	}
+
+.LEFTCOLWIDTH{
+	width:150px;
+	}
+
+.RIGHTCOLWIDTH{
+	width:450px;
+	}
+
+.TEMPLATEPAD{
+	padding:0px;
+	}
+
+.RIGHTCOLPAD{
+	padding:0px;
+	}
+
+.LEFTCOLPAD{
+	padding:0px;
+	}
+

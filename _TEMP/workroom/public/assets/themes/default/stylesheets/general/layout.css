@@ -1,0 +1,94 @@
+#loading {
+	font-size: 20px;
+	position: absolute;
+	left: 45%;
+	top: 45%;
+}
+
+#header {
+	/*border-bottom: 1px solid black;*/
+	background-color: white;
+	height: 55px;
+	/*border-bottom: 1px solid #8888EE;*/
+	overflow: hidden;
+}
+#content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#pageContent {
+	min-height: 1px;
+}
+#footer {
+	height: 20px;
+	color: #666;
+	font-size: 9px;
+	overflow: hidden;
+}
+#helpFrame {
+	border: 0px;
+}
+.menuCont {
+	/*height: 100%;*/
+	font-size: 11px;
+	/*padding: 5px 0px 5px 22px;*/
+}
+.ico-overview {
+	background-image: url(../../images/16x16/overview.png) !important;
+}
+.ico-messages {
+	background-image: url(../../images/16x16/message.png) !important;
+}
+.ico-contacts {
+	background-image: url(../../images/16x16/contacts.png) !important;
+}
+.ico-companies {
+	background-image: url(../../images/16x16/companies.png) !important;
+}
+.ico-calendar {
+	background-image: url(../../images/16x16/calendar.png) !important;
+}
+.ico-documents {
+	background-image: url(../../images/16x16/documents.png) !important;
+}
+.ico-tasks {
+	background-image: url(../../images/16x16/tasks.png) !important;
+}
+.ico-webpages {
+	background-image: url(../../images/16x16/webpages.png) !important;
+}
+
+
+.ext-strict .ext-ie6 .x-layout-split{
+	background-color: #dfe8f6; /* fixes split panels in ie6 */
+}
+.x-box-mc {
+	font-size: 14px;
+}
+.err .x-box-mc h3 {
+	color: #AA0000;
+}
+.reminder .x-box-mc h3 {
+	color: #008800;
+}
+#msg-div {
+	position:absolute;
+	left:35%;
+	top:10px;
+	width:250px;
+	z-index:20000;
+	cursor: pointer;
+}
+.toggle_collapsed {
+	background-repeat: no-repeat;
+	background-image: url(../../images/16x16/plus.gif);
+	padding-left: 20px;
+	cursor: pointer;
+}
+.toggle_expanded {
+	background-repeat: no-repeat;
+	background-image: url(../../images/16x16/minus.gif);
+	padding-left: 20px;
+	cursor: pointer;
+}

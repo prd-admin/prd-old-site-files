@@ -1,0 +1,1 @@
+ERROR 1044 (42000) at line 19: Access denied for user 'providenceroll'@'%' to database 'information_schema'

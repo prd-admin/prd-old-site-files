@@ -1,0 +1,39 @@
+<!--
+ *  Slimey - SLIdeshow Microformat Editor - http://slimey.sourceforge.net
+ *  Copyright (C) 2007 - 2008 Ignacio de Soto
+ *
+ *  Editor.
+-->
+
+<html>
+
+<head>
+	<title>Slimey</title>
+	<script type="text/javascript" src="slimey.js"></script>
+	<script type="text/javascript">
+		Slimey.includeScripts();
+		Slimey.preloadImages();
+	</script>
+	<link rel="stylesheet" href="slimey.css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body onbeforeunload="return 'Unsaved changes will be lost.'">
+
+<div style="position: relative; width: 100%; height: 100%;" id="slimey">
+</div>
+
+<script type="text/javascript">
+	new Slimey({
+		container: 'slimey',
+		rootDir: '',
+		imagesDir: 'images/',
+		filename: '',
+		slimContent: escapeSLIM('<div class="slide"><div style="font-size: 200%; font-weight: bold; font-family: sans-serif; position: absolute; left: 25%; top: 0%;">New Slideshow</div></div><div class="slide"><div style="font-size: 200%; font-weight: bold; font-family: sans-serif; position: absolute; left: 25%; top: 0%;">Second slide</div></div>'),
+		saveUrl: 'save.php'
+	});
+</script>
+
+</body>
+
+</html>

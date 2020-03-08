@@ -1,0 +1,50 @@
+﻿a {color:#0D5369; font-size:8pt; text-decoration:none; font-weight:normal;}
+
+
+
+a:link {color:#0D5369; font-size:8pt; text-decoration:none; font-weight:normal;}
+
+
+
+a:visited {color:#0D5369; font-size:8pt; text-decoration:none; font-weight:normal;}
+
+
+
+a:hover {color:#ffffff; font-size:8pt; text-decoration:none; font-weight:normal;}
+
+
+
+a:active {color:#0D5369; font-size:8pt; text-decoration:none; font-weight:normal;}
+
+
+
+
+
+
+
+body {background image: src="http://www.providencerollerderby.com/images/rivbkg.jpg"; background-position:top left; background-attachment:scroll; background-color:#0071aa; background-repeat:no-repeat;}
+
+
+
+.menu {position:absolute; left:0%; top:0%; z-index:2; margin-left:0px; margin-top:200px; visibility:visible; z-index:2; color:#ffffff; font-family:verdana, tahoma, arial, helvetica; font-size:8pt;}
+
+
+
+.specialevent {background-color:#090909; position:absolute; left:0%; top:0%; z-index:2; margin-left:0px; margin-top:240px; visibility:visible; z-index:2; color:#ffffff; font-family:verdana, tahoma, arial, helvetica; font-size:9pt; width:140px; border-right:0px dotted gray;}
+
+
+
+.leftbox {position:absolute; left:0%; top:0%; z-index:2; margin-left:11px; margin-top:380px; visibility:visible; z-index:2; color:#000000; font-family:verdana, tahoma, arial, helvetica; font-size:8pt; border-left:1px solid; border-right:1px solid; border-color:#0D5369; padding:4px; width:240px;}
+
+
+
+.middlebox {position:absolute; left:0%; top:0%; z-index:2; margin-left:272px; margin-top:380px; visibility:visible; z-index:2; color:#000000; font-family:verdana, tahoma, arial, helvetica; font-size:8pt; border-left:0px solid; border-color:#6FB0C5; padding:4px; width:460px;}
+
+
+
+.rightbox {position:absolute; left:0%; top:0%; z-index:2; margin-left:752px; margin-top:390px; visibility:visible; z-index:2; color:#000000; font-family:verdana, tahoma, arial, helvetica; font-size:8pt; border-left:1px solid; border-right:1px solid;border-color:#0D5369; padding:4px; width:230px;}
+
+
+
+.teampage {position:absolute; left:0%; top:0%; z-index:2; margin-left:20px; margin-top:380px; visibility:visible; z-index:2; color:#000000; font-family:verdana, tahoma, arial, helvetica; font-size:8pt; border-left:0px solid; border-color:#6FB0C5; padding:4px; width:1002px;}
+

@@ -1,0 +1,117 @@
+body {
+	background: white;
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+	text-align: left;
+	font: bold 16pt;
+	font-size: 16pt;
+}
+a {
+	color: blue;
+	padding: 2px 5px 2px 5px;
+}
+a:active {
+	color: blue;
+}
+a:hover {
+	color: green;
+}
+
+a:visited {
+	color: purple;
+}
+
+.imageborder {
+	margin: 10px;
+	border: 10px solid #cccccc;
+}
+
+td a img {
+	margin: 10px;
+}
+/* used to style the thumbnail caption under the photo */
+.thmbcaption {
+	font-size: .8em;
+	margin: 0;
+	padding: 0;
+}
+
+/* used to style the EXIF comment caption */
+.photocaption {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*
+used to style the page listing and next prev links
+both on the thumbnail pages and the photo pages.
+why is it called caption...
+i honestly don't remember it just is
+and i don't feel like changing it. deal with it.
+*/
+.caption {
+	font-size: .8em;
+}
+/*
+used to style the main menu/album listing
+the defaults is a horizontal menu but you could use the something
+like the following to create a vertical menu
+
+Yes I know the colors are butt ugly. It is only to show you what can be done.
+Don't forget to make the divider a blank space in the config section of the script.
+
+.album {
+	float: left;
+}
+.album br {
+	line-height: 0;
+}
+.album a {
+	display: block;
+	margin: 0;
+	padding: 5px;
+	border: 1px solid yellow;
+	background-color: red;
+}
+
+*/
+.album {
+
+}
+.album br {
+
+}
+.album a {
+
+}
+
+
+/*
+used to style the main photo listing
+all photo information is in this div
+
+along with the album float above you could
+define the photobody to float right and create
+a two column menu main content look
+
+.photobody {
+	float: right;
+	width: 75%;
+}
+
+*/
+.photobody {
+
+}
+/*
+used to style the footer of the defualt footer
+*/
+.lgrfooter {
+	clear: both;
+	font-size: .55em;
+}

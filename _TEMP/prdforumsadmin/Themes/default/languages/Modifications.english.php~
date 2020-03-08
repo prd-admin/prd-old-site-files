@@ -1,0 +1,90 @@
+<?php
+// Version: 1.1; Modifications
+
+
+// Invite MOD.
+$txt['invite_title'] = 'Invite';
+$txt['invite_only'] = 'Only allow registrations through invitation.';
+$txt['invite_menu_title'] = 'Invite menu title.';
+$txt['invite_days'] = 'Number of days for members to get a new invite credit.<div class="smalltext">(0 for no limit, admins are exempt)</div>';
+$txt['invite_max'] = 'Max number of invite credits.<div class="smalltext">(0 for no limit, admins are exempt)</div>';
+$txt['invite_expire'] = 'Number of days for an invite key to be valid.<div class="smalltext">(0 for no limit)</div>';
+$txt['invite_group_settings'] = 'Set group permission for sending invites';
+
+$txt['invite_email_disable'] = 'Disable mailing feature.';
+$txt['invite_email_subject'] = 'E-mail subject.';
+$txt['invite_email_message'] = 'E-mail message.
+<div class="smalltext">{invitee} = Recipient\'s name</div>
+<div class="smalltext">{inviter} = Inviter\'s memebername</div>
+<div class="smalltext">{forum} = Forum name</div>
+<div class="smalltext">{link} = Link to registration page (with key)</div>
+<div class="smalltext">{message} = Message by inviter</div>';
+$txt['invite_default_email_subject'] = '{invitee}, you have received an invitation to {forum} by {inviter}!';
+$txt['invite_default_email_message'] = 'Hi {invitee},
+
+You have received an invitation to {forum}, click the following link to register:
+
+{link}
+
+{inviter} also sent this comment to you:
+
+{message}
+
+
+This message is not spam.';
+
+$txt['invite_someone'] = 'Invite someone';
+$txt['invite_info'] = 'You can invite someone new if you have invite credits by making a new key and sending them the link.';
+$txt['invite_link'] = 'You can invite someone new by sending them the following link.';
+$txt['invitees'] = 'Invitees';
+$txt['invitees_info'] = 'The following list which members you have invited.';
+$txt['no_invitees'] = 'There are no invitees to display';
+$txt['invite_unlimited'] = 'unlimited';
+$txt['invite_max_reached'] = 'max reached';
+$txt['make_new_invite_key'] = 'Make new invite key';
+$txt['invite_credits'] = 'Invite credits';
+$txt['next_invite_credit'] = 'Next credit';
+$txt['invite_key'] = 'Invite Key';
+$txt['invite_email'] = 'Invitation E-mail';
+$txt['invite_send_email'] = 'Send invitation e-mail';
+$txt['invite_expires'] = 'Expires';
+$txt['invited_by'] = 'Invited by';
+$txt['invitees_count'] = 'Members invited';
+$txt['show_invitees'] = 'Show members invited by this person';
+
+
+$txt['invite_email_info'] = 'Enter the name and email of the person you wish to invite, and the invite link will be sent to them.';
+$txt['invite_recipient_name'] = 'Recipient\'s name';
+$txt['invite_recipient_email'] = 'Recipient\'s e-mail';
+$txt['invite_message'] = 'Personal message to recipient';
+$txt['invite_sent'] = 'The invitation has been sent.';
+
+$txt['invite_no_name'] = 'You did not enter a name.';
+$txt['invite_no_email'] = 'You did not enter a valid e-mail address.';
+$txt['cannot_send_invite'] = 'Sorry, the invite key could not be sent (already sent maybe?).';
+
+$txt['permissiongroup_invite'] = 'Invite';
+$txt['permissionname_invite'] = 'Invite';
+$txt['permissionhelp_invite'] = 'When the forum is set to accept registrations by invitation only, this permission will allow a membergroup to invite people to the forum so they can register.';
+$txt['permissionname_invite_unlimited'] = 'Unlimted invite credits';
+$txt['permissionhelp_invite_unlimited'] = 'When the forum is set to accept registrations by invitation only, this permission will allow a membergroup to have unlimited invite credits.';
+$txt['permissionname_invitees'] = 'View invitees';
+$txt['permissionhelp_invitees'] = 'This will show a list of members that the user has invited to the forum using the Invite MOD.';
+$txt['permissionname_invitees_own'] = 'Own invitees';
+$txt['permissionname_invitees_any'] = 'Any invitees';
+
+$txt['cannot_invite'] = 'Sorry, you\'re not allowed to send invitations.';
+$txt['cannot_invite_as_other'] = 'Sorry, you can\'t send invitations as someone else.';
+$txt['cannot_invitees_any'] = 'Sorry, you\'re not allowed to view this member\'s invitees.';
+$txt['registration_invite_only'] = 'Sorry, registration is by invitation only.<br /><br />If you have a valid invite key enter it below:<br /><form method="POST" action="index.php?action=register"><input type="text" name="invite_key" size="40"> <input type="submit" value="Register"></form>';
+$txt['registration_invite_expired'] = 'Sorry, the invite key has expired.';
+
+$txt['top_inviters'] = 'Top Inviters (by Invitees)';
+$txt['top_inviters_by_posts'] = 'Top Inviters (by Invitees\' Posts)';
+// End Invite MOD.
+
+
+$txt['gmail'] = 'GMAIL';
+$txt['gmail_in'] = 'This is your GMAIL address.';
+  
+?>

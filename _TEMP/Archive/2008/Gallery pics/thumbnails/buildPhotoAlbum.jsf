@@ -1,0 +1,564 @@
+App.progressCountTotal = 70;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 1.png');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'Picture 1.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 1_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 1_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 1_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 1_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 1_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 1_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 10.png');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Picture 10.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 10_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 10_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 10_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 10_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 10_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 10_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 11.png');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Picture 11.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 11_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 11_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 11_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 11_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 11_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 11_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 13.png');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'Picture 13.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 13_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 13_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 13_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 13_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 13_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 13_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 14.png');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'Picture 14.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 14_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 14_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 14_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 14_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 14_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 14_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 15.png');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'Picture 15.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 15_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 15_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 15_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 15_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 15_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 15_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 16.png');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'Picture 16.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 16_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 16_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 16_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 16_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 16_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 16_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 17.png');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'Picture 17.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 17_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 17_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 17_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 17_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 17_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 17_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 18.png');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'Picture 18.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 18_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 18_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 18_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 18_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 18_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 18_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 19.png');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'Picture 19.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 19_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 19_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 19_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 19_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 19_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 19_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 2.png');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'Picture 2.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 2_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 2_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 2_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 2_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 2_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 2_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 20.png');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'Picture 20.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 20_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 20_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 20_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 20_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 20_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 20_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 21.png');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'Picture 21.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 21_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 21_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 21_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 21_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 21_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 21_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 22.png');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'Picture 22.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 22_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 22_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 22_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 22_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 22_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 22_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 23.png');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'Picture 23.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 23_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 23_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 23_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 23_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 23_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 23_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 24.png');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'Picture 24.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 24_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 24_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 24_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 24_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 24_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 24_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 25.png');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'Picture 25.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 25_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 25_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 25_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 25_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 25_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 25_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 26.png');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'Picture 26.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 26_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 26_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 26_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 26_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 26_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 26_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 27.png');
+App.progressCountCurrent = 19;
+App.batchStatusString = 'Picture 27.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 27_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 27_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 27_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 27_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 27_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 27_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 28.png');
+App.progressCountCurrent = 20;
+App.batchStatusString = 'Picture 28.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 28_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 28_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 28_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 28_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 28_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 28_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 29.png');
+App.progressCountCurrent = 21;
+App.batchStatusString = 'Picture 29.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 29_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 29_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 29_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 29_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 29_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 29_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 3.png');
+App.progressCountCurrent = 22;
+App.batchStatusString = 'Picture 3.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 3_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 3_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 3_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 3_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 3_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 3_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 30.png');
+App.progressCountCurrent = 23;
+App.batchStatusString = 'Picture 30.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 30_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 30_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 30_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 30_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 30_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 30_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 31.png');
+App.progressCountCurrent = 24;
+App.batchStatusString = 'Picture 31.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 31_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 31_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 31_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 31_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 31_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 31_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 32.png');
+App.progressCountCurrent = 25;
+App.batchStatusString = 'Picture 32.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 32_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 32_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 32_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 32_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 32_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 32_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 33.png');
+App.progressCountCurrent = 26;
+App.batchStatusString = 'Picture 33.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 33_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 33_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 33_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 33_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 33_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 33_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 34.png');
+App.progressCountCurrent = 27;
+App.batchStatusString = 'Picture 34.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 34_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 34_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 34_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 34_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 34_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 34_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 35.png');
+App.progressCountCurrent = 28;
+App.batchStatusString = 'Picture 35.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 35_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 35_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 35_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 35_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 35_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 35_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 36.png');
+App.progressCountCurrent = 29;
+App.batchStatusString = 'Picture 36.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 36_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 36_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 36_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 36_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 36_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 36_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 37.png');
+App.progressCountCurrent = 30;
+App.batchStatusString = 'Picture 37.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 37_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 37_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 37_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 37_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 37_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 37_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 38.png');
+App.progressCountCurrent = 31;
+App.batchStatusString = 'Picture 38.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 38_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 38_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 38_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 38_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 38_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 38_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 39.png');
+App.progressCountCurrent = 32;
+App.batchStatusString = 'Picture 39.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 39_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 39_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 39_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 39_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 39_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 39_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 4.png');
+App.progressCountCurrent = 33;
+App.batchStatusString = 'Picture 4.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 4_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 4_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 4_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 4_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 4_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 4_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 40.png');
+App.progressCountCurrent = 34;
+App.batchStatusString = 'Picture 40.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 40_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 40_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 40_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 40_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 40_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 40_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 41.png');
+App.progressCountCurrent = 35;
+App.batchStatusString = 'Picture 41.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 41_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 41_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 41_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 41_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 41_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 41_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 42.png');
+App.progressCountCurrent = 36;
+App.batchStatusString = 'Picture 42.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 42_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 42_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 42_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 42_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 42_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 42_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 43.png');
+App.progressCountCurrent = 37;
+App.batchStatusString = 'Picture 43.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 43_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 43_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 43_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 43_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 43_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 43_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 44.png');
+App.progressCountCurrent = 38;
+App.batchStatusString = 'Picture 44.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 44_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 44_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 44_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 44_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 44_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 44_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 45.png');
+App.progressCountCurrent = 39;
+App.batchStatusString = 'Picture 45.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 45_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 45_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 45_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 45_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 45_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 45_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 47.png');
+App.progressCountCurrent = 40;
+App.batchStatusString = 'Picture 47.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 47_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 47_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 47_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 47_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 47_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 47_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 48.png');
+App.progressCountCurrent = 41;
+App.batchStatusString = 'Picture 48.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 48_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 48_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 48_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 48_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 48_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 48_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 49.png');
+App.progressCountCurrent = 42;
+App.batchStatusString = 'Picture 49.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 49_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 49_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 49_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 49_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 49_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 49_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 5.png');
+App.progressCountCurrent = 43;
+App.batchStatusString = 'Picture 5.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 5_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 5_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 5_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 5_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 5_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 5_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 50.png');
+App.progressCountCurrent = 44;
+App.batchStatusString = 'Picture 50.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 50_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 50_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 50_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 50_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 50_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 50_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 51.png');
+App.progressCountCurrent = 45;
+App.batchStatusString = 'Picture 51.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 51_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 51_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 51_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 51_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 51_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 51_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 52.png');
+App.progressCountCurrent = 46;
+App.batchStatusString = 'Picture 52.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 52_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 52_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 52_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 52_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 52_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 52_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 53.png');
+App.progressCountCurrent = 47;
+App.batchStatusString = 'Picture 53.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 53_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 53_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 53_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 53_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 53_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 53_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 54.png');
+App.progressCountCurrent = 48;
+App.batchStatusString = 'Picture 54.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 54_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 54_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 54_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 54_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 54_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 54_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 55.png');
+App.progressCountCurrent = 49;
+App.batchStatusString = 'Picture 55.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 55_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 55_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 55_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 55_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 55_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 55_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 56.png');
+App.progressCountCurrent = 50;
+App.batchStatusString = 'Picture 56.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 56_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 56_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 56_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 56_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 56_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 56_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 57.png');
+App.progressCountCurrent = 51;
+App.batchStatusString = 'Picture 57.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 57_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 57_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 57_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 57_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 57_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 57_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 58.png');
+App.progressCountCurrent = 52;
+App.batchStatusString = 'Picture 58.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 58_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 58_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 58_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 58_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 58_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 58_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 59.png');
+App.progressCountCurrent = 53;
+App.batchStatusString = 'Picture 59.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 59_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 59_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 59_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 59_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 59_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 59_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 6.png');
+App.progressCountCurrent = 54;
+App.batchStatusString = 'Picture 6.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 6_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 6_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 6_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 6_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 6_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 6_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 60.png');
+App.progressCountCurrent = 55;
+App.batchStatusString = 'Picture 60.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 60_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 60_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 60_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 60_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 60_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 60_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 61.png');
+App.progressCountCurrent = 56;
+App.batchStatusString = 'Picture 61.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 61_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 61_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 61_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 61_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 61_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 61_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 62.png');
+App.progressCountCurrent = 57;
+App.batchStatusString = 'Picture 62.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 62_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 62_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 62_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 62_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 62_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 62_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 63.png');
+App.progressCountCurrent = 58;
+App.batchStatusString = 'Picture 63.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 63_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 63_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 63_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 63_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 63_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 63_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 64.png');
+App.progressCountCurrent = 59;
+App.batchStatusString = 'Picture 64.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 64_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 64_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 64_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 64_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 64_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 64_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 65.png');
+App.progressCountCurrent = 60;
+App.batchStatusString = 'Picture 65.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 65_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 65_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 65_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 65_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 65_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 65_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 66.png');
+App.progressCountCurrent = 61;
+App.batchStatusString = 'Picture 66.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 66_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 66_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 66_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 66_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 66_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 66_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 67.png');
+App.progressCountCurrent = 62;
+App.batchStatusString = 'Picture 67.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 67_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 67_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 67_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 67_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 67_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 67_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 68.png');
+App.progressCountCurrent = 63;
+App.batchStatusString = 'Picture 68.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 68_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 68_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 68_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 68_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 68_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 68_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 69.png');
+App.progressCountCurrent = 64;
+App.batchStatusString = 'Picture 69.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 69_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 69_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 69_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 69_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 69_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 69_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 7.png');
+App.progressCountCurrent = 65;
+App.batchStatusString = 'Picture 7.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 7_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 7_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 7_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 7_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 7_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 7_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 70.png');
+App.progressCountCurrent = 66;
+App.batchStatusString = 'Picture 70.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 70_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 70_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 70_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 70_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 70_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 70_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 71.png');
+App.progressCountCurrent = 67;
+App.batchStatusString = 'Picture 71.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 71_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 71_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 71_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 71_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 71_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 71_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 72.png');
+App.progressCountCurrent = 68;
+App.batchStatusString = 'Picture 72.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 72_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 72_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 72_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 72_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 72_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 72_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 8.png');
+App.progressCountCurrent = 69;
+App.batchStatusString = 'Picture 8.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 8_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 8_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 8_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 8_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 8_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 8_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Gallery pics/RIV at NY/Picture 9.png');
+App.progressCountCurrent = 70;
+App.batchStatusString = 'Picture 9.png';
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 9_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 9_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/images/Picture 9_png.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 9_png.jpg') || confirm('file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 9_png.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/meghanhope2482/Desktop/PRD website/thumbnails/Picture 9_png.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-72, ySize:-72}));
+fw.closeDocument(doc);
+'done';
